@@ -1,6 +1,7 @@
 import React from 'react'
 
-const Product = () => {
+const Product = ({searchParams}) => {
+    console.log(searchParams)
   return (
     <div>Product</div>
   )

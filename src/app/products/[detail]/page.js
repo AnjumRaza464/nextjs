@@ -1,8 +1,10 @@
 import React from 'react'
 
-const ProductDetail = () => {
+const ProductDetail = ({params}) => {
+    console.log(params)
+    console.log(params.detail)
   return (
-    <div>ProductDetail Page</div>
+    <div>ProductDetail Page {params.detail}</div>
   )
 }
 
